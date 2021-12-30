@@ -3,6 +3,6 @@ module.exports = {
   plugins: [
     "@babel/plugin-transform-runtime",
     "@babel/plugin-proposal-class-properties",
-    ["import", { libraryName: "antd-mobile", style: true }] // `style: true | css` 会加载 less 文件
+    ["import", { libraryName: "antd-mobile", "libraryDirectory": "es", "style": "css" ,style: true }] // `style: true | css` 会加载 less 文件
   ]
 };

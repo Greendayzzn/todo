@@ -9,7 +9,7 @@ const GoBack = props => {
   const goBack = () => {
     props.history.go(-1)
   }
-  return <Button type="primary" onClick={goBack}>返回</Button>
+  return <Button type="primary" onClick={goBack} >返回</Button>
 }
 
 export default withRouter(GoBack)

@@ -34,6 +34,19 @@ module.exports = {
         ]
       },
       {
+        test: /\.css$/,
+        exclude: /node_modules/,             // 这里！
+        use: [
+          { loader: 'style-loader' },
+          {
+            loader: 'css-loader',
+            options: {                       // 还有这里！
+              modules: true
+            }
+          },
+        ]
+      },
+      {
         test: /.(png|jpg|gif|svg)$/,
         loader: 'url-loader',
         options: {
@@ -49,7 +62,7 @@ module.exports = {
       '@': resolve('../src')
     },
     modules: ['node_modules'],
-    extensions: ['.js', '.jsx']
+    extensions: ['.web.js', '.js', '.jsx', '.json']
   },
   plugins: [
     new FriendlyErrorsWebpackPlugin(),
