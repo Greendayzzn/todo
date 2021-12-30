@@ -1,7 +1,7 @@
 {
-  "name": "react-board",
+  "name": "todolist",
   "version": "1.0.0",
-  "description": "react 项目模板",
+  "description": "活动发布与预定",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --config build/webpack.dev.js",
@@ -11,7 +11,7 @@
     "react",
     "tempalate"
   ],
-  "author": "Mondo",
+  "author": "张卓南",
   "license": "ISC",
   "dependencies": {
     "antd-mobile": "^2.3.3",
@@ -58,5 +58,6 @@
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^4.2.2"
-  }
+  },
+  "repository": "https://github.com/Greendayzzn/todo.git"
 }
