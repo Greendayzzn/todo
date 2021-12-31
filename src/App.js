@@ -16,7 +16,7 @@ function App() {
         <BaseNavBar />
         <div className='purple-theme'>
           {/* <Button type="primary">primary</Button> */}
-          <Search placeholder="input search text"  style={{ }} />
+          <Search placeholder="请输入搜索内容"  style={{ }} />
 
         </div>
         <div className="main">

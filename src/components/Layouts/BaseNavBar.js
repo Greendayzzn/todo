@@ -13,10 +13,10 @@ function BaseNavBar(props) {
       mode="light"
       icon={<Icon type="left" />}
       onLeftClick={() => goBack(props)}
-      rightContent={[
-        <Icon key="0" type="search" style={{ marginRight: '16px' }} />,
-        <Icon key="1" type="ellipsis" />,
-      ]}
+    //   rightContent={[
+    //     <Icon key="0" type="search" style={{ marginRight: '16px' }} />,
+    //     <Icon key="1" type="ellipsis" />,
+    //   ]}
     >导航</NavBar>
   )
 }
